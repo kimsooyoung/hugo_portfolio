@@ -1,3 +1,21 @@
+title = "Sooyoung Kim"
 baseURL = 'https://example.org/'
+theme = "hugo-resume"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Wangsimni, Seoul"
+email = "tge1375@roadbalance.com"
+
+firstName = "Sooyoung"
+lastName = "Kim"
+phone = "+82)10-2663-0259"
+
+showQr = true
+showContact = true
+
