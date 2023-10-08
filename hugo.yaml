@@ -176,12 +176,14 @@ params:
           enable: true
           name: "Company URL"
           url: "https://www.roadbalance.com/"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          - Robotics education services based on online platform and actual hardwares.
+          - YouTube video lectures and hardware hands-ons such as legged robotics, robot arms, and mobile robots
 
       - job: "Robotics Software Developer, Co-Founder"
         company: "WATT"
         companyUrl: "https://wattrobotics.co/careers"
-        date: "Sep 2020 - Dec 2021"
+        date: "Mar 2020 - Sep 2020"
         featuredLink:
           enable: true
           name: "Company URL"
@@ -190,15 +192,13 @@ params:
           enable: true
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          In the absence of business items, selected for the startup acceleration program and developed business with the first POC.
+          - SDF
 
       - job: "Operation Manager, Co-Founder"
         company: "PUMP"
         companyUrl: "https://www.xingxingmobility.com/"
-        date: "Jan 2020 - Aug 2020"
+        date: "Mar 2019 - Mar 2020"
         info:
           enable: false
         featuredLink:
@@ -207,14 +207,15 @@ params:
           url: "https://www.xingxingmobility.com/"
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          -	Operated more than 5,000 electric scooters and 30 actual workers in Seoul, Republic of Korea.
+          -	Established Data-driven operation strategies for collecting and relocating electric scooters based on working as an actual worker in person.
+          -	Progressed Korea Certification process for China manufactured electric scooters.
+          -	Attended 2019 Micro Mobility Conference, Berlin, Germany.
 
       - job: "Full-time Student Researcher"
         company: "ICSL Lab"
         companyUrl: "http://icsl.hanyang.ac.kr/"
-        date: "June 2017 - Nov 2019"
+        date: "Aug 2016 - Mar 2017"
         featuredLink:
           enable: true
           name: "Lab URL"
@@ -228,7 +229,7 @@ params:
       - job: "Full-time Student Researcher"
         company: "Vision Modeling Lab"
         companyUrl: "http://vml.hanyang.ac.kr/"
-        date: "Feb 2016 - Mar 2017"
+        date: "Dec 2015 - Feb 2016"
         featuredLink:
           enable: true
           name: "Lab URL"
@@ -238,7 +239,7 @@ params:
       - job: "Research Intern (International Research)"
         company: "Digital Systems Lab"
         companyUrl: "https://digital.hanyang.ac.kr"
-        date: "Feb 2016 - Mar 2017"
+        date: "Jul 2015 - Sep 2015"
         featuredLink:
           enable: true
           name: "Lab URL"
@@ -250,50 +251,62 @@ params:
     enable: true
     title: "Teaching and Seminar"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Youtube Open Lectures
+        content: "
+        <br>- [Everybody’s Robotics](https://studio.youtube.com/video/1gRGReIrUkQ/edit)
+        <br>- [ROS 2 lectures for everybody](https://www.youtube.com/watch?v=X9uYIumhU8E&list=PLieE0qnqO2kTNCznjLX_AaXe2hNJ-IpVQ)
+        <br>- [ROS lectures for everybody](https://www.youtube.com/watch?v=j2kBX8G6-bY&list=PLieE0qnqO2kSYIxWAN6UvaMe_op2p2_Pw)
+        <br>- [Quadruped robot making course](https://www.youtube.com/watch?v=XBYq_FJbdTk&list=PLDAyxeaWPd36ol0wfXV4KST0x8v7KWFwO)
+        "
         image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Youtube Lectrue"
+          - "Robotics"
+          - "Python for Robotics"
+          - "ROS / ROS 2"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fa fa-note
+            url: https://roadbalance_edu.teachable.com/
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/kimsooyoung/robotics_python
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=1gRGReIrUkQ&list=PLqVtSQw2sXKlI3idkAUBp2yX_p7wnJQF-
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Face-to-Face Lectures 
+        content: "
+        I've been taught ROS 2 to many government agencies, schools, and companies.
+        <br>
+        <br>- [Agency for Defense Development](https://www.add.re.kr/kps)
+        <br>- [Electronics and Telecommunications Research Institute](https://www.etri.re.kr/eng/main/main.etri)
+        <br>- [Daejeon Information and Culture Industry Promotion Agency](https://pms.dicia.or.kr/comm/main/main.do)
+        <br>
+        <br>and lots of universities and companies
+        "
         image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "ROS 2"
+          - "Simulation"
+          - "Real Hardware"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Road-Balance/road100_simulation
+          - icon: fab fa-github
+            url: https://github.com/Road-Balance/ignition_tutorial
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: Online Lectures
+        content: "
+        Most of lectures during COVID season were online one.
+        <br>
+        <br>- [NVIDIA ISAAC Sim tutorial](https://edu.tta.or.kr/semina/TTAReqstView.do?eventId=EVENT_00000000002632)
+        <br>- [Project-based ROS 2 course for employees](https://alpha-campus.kr/explore/f1f65a90-986f-4d84-b6af-6e0ac2a74171?type=3&type=4&number=0&size=12&keyword=ROS&types=3&types=4&orderBy=DATE)
+        "
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "ROS 2"
+          - "Security"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fab fa-file
+            url: https://rb2023ros.github.io/
 
   # Education
   education:
@@ -301,42 +314,28 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "B.S. in School of Electronic Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Hanyang University"
+          url: "https://www.hanyang.ac.kr/web/eng"
+        date: "2015 - 2023"
+        GPA: "3.9 out of 4.5"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - 로봇 동아리 Road Balance 설립
+            - 장학금 받은 거 적기
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "Academic Transcript"
           url: "https://example.com"
-      - title: "High School"
+      - title: "Seoul Dongsung High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          url: "https://www.dongsung.hs.kr/xe2/main/"
+        date: "2012 - 2015"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "School URL"
+          url: "https://www.dongsung.hs.kr/xe2/main/"
 
   # Achievements
   achievements:
@@ -365,35 +364,14 @@ params:
     enable: true
     title: "Community Experiences"
     items:
-      - title: Google kickstart runner
+      - title: AI Robotics Korea
         content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
+        url: https://www.facebook.com/groups/379266009497613
+        image: /ai_robo_logo.png
+      - title: Korea ROS Community
         content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
-  #Contact
-  contact:
-    enable: false
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+        url: https://www.facebook.com/groups/427060150825583
+        image: /2_ROSKR_ppt.png
 
   footer:
     recentPosts:
