@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Soo Young Kim"
+  title: "Sooyoung Kim"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/rb_favicon.png"
@@ -118,9 +118,11 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Soo Young Kim."
+    title: "Sooyoung Kim"
     subtitle: "I'm a Robotics Enthusiast."
-    content: "I really like to learn something. And It'll be best to make or explain something to other people to prove my knowledge. <br> <br> That's why I love robotics & education."
+    content: "
+    The best way to proving my knowledge might be making something, or explaining to others!!
+    That's why I love Robotics & Education"
     image: /me2.png
     bottomImage:
       enable: false
@@ -147,11 +149,12 @@ params:
     title: "About Me"
     image: "/me.png"
     content: |-
-      I am a robotics software engineer and CEO of [Road Balance](https://www.roadbalance.com/), South Korea.
+      I am a CEO of [Road Balance](https://www.roadbalance.com/) and also robotics software engineer.
 
-      “Robotics” is a rapidly developing field that requires a variety of knowledge. 
-      I have multiple interests and really like to acquire new knowledge, thus I love my job and think it is a Play, not a Work. 
-      In addition, I continue to do community, open-source activities, and educational activities because I love sharing and developing my robotics knowledge with someone else.
+      Among the various robots, I am especially interested in "Mobile Robots'', "Autonomous Driving", and "Robot Automation". 
+      If we, human beings, can automate an assortment of repetitive and dangerous tasks through robots, we can focus more on creative tasks that the task only we can do. 
+      However, there are still many technical challenges to be solved for robotics to enter into our lives. 
+      So as an engineer, my life's goal is to solve these challenges, make robots more popular through business, and finally make our world comfortable and happy.
     skills:
       enable: true
       title: "And here are a few technologies I've been working with recently:"
@@ -177,8 +180,9 @@ params:
           name: "Company URL"
           url: "https://www.roadbalance.com/"
         content: |
-          - Robotics education services based on online platform and actual hardwares.
-          - YouTube video lectures and hardware hands-ons such as legged robotics, robot arms, and mobile robots
+          High precision AMR(Autonomous Mobile Robot) software system
+          - High-Precision self-driving robots for semiconductor, battery production and logistics
+          - MPC-based under 10mm stationary precision autonomous driving robot system
 
       - job: "Robotics Software Developer, Co-Founder"
         company: "WATT"
@@ -192,8 +196,9 @@ params:
           enable: true
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          In the absence of business items, selected for the startup acceleration program and developed business with the first POC.
-          - SDF
+          Autonomous indoor delivery robot for housing complexes
+          - In the absence of business items, selected from startup accelerator [FuturePlay](https://futureplay.co/) and developed business with the first POC.
+          - Developed whole indoor autonomous robots including navigation software, courier pick and drop behaviors, manipulator for elevator button detection and pressing.
 
       - job: "Operation Manager, Co-Founder"
         company: "PUMP"
@@ -206,11 +211,10 @@ params:
           name: "Company URL"
           url: "https://www.xingxingmobility.com/"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-          -	Operated more than 5,000 electric scooters and 30 actual workers in Seoul, Republic of Korea.
-          -	Established Data-driven operation strategies for collecting and relocating electric scooters based on working as an actual worker in person.
-          -	Progressed Korea Certification process for China manufactured electric scooters.
-          -	Attended 2019 Micro Mobility Conference, Berlin, Germany.
+          E-scooter sharing service “Xing Xing Mobility”
+          -	Operated more than 5,000 electric scooters with 30 actual workers in Seoul, Republic of Korea
+          -	Established data-driven operation strategies for collecting and relocating electric scooters
+          - Attended [Micro Mobility Conference Berlin](https://micromobility.io/news/your-berlin-guide-to-mmeurope), Visited manufacture factory in China several times
 
       - job: "Full-time Student Researcher"
         company: "ICSL Lab"
@@ -221,10 +225,8 @@ params:
           name: "Lab URL"
           url: "http://icsl.hanyang.ac.kr/"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developed swarming algorithms for quadcopter and validated through gazebo simulation
+          - Selfie-Drone Development using [Pixhawk](https://pixhawk.org/) and [MAVROS](http://wiki.ros.org/mavros#mavros.2BAC8-Plugins.sys_status)
 
       - job: "Full-time Student Researcher"
         company: "Vision Modeling Lab"
@@ -234,7 +236,9 @@ params:
           enable: true
           name: "Lab URL"
           url: "http://vml.hanyang.ac.kr/"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          - Implemented various pattern recognition, computer vision algorithms using MATLAB
+          - Integrated Visual SLAM System with Small UAVs
 
       - job: "Research Intern (International Research)"
         company: "Digital Systems Lab"
@@ -244,7 +248,10 @@ params:
           enable: true
           name: "Lab URL"
           url: "https://digital.hanyang.ac.kr"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          Summer research program writing a short paper on the subject of self-driving vehicles with IIT(Indian Institute of Technology) students.
+          - Paper subject : Distance measurements using vehicle rear-end Inverse Perspective Image (IPM)
+          - Gathered datasets using toy cars and validated estimation performance
 
   # projects
   projects:
@@ -320,44 +327,16 @@ params:
           url: "https://www.hanyang.ac.kr/web/eng"
         date: "2015 - 2023"
         GPA: "3.9 out of 4.5"
-        content: |-
-          Extracurricular Activities
-            - 로봇 동아리 Road Balance 설립
-            - 장학금 받은 거 적기
+        content: |
+          Scholarship and Extracurricular Activities
+            - 1st Place, 2021 HANYANG Graduate Student Start-up Competition
+            - Scholarship for academic excellence (Hanyang Brain Scholarship)
+            - Startup Support Scholarship (Startup Dormitory Scholarship)
+            - Created University Robot Club "Road Balance" 
         featuredLink:
           enable: true
           name: "Academic Transcript"
           url: "https://example.com"
-      - title: "Seoul Dongsung High School"
-        school:
-          url: "https://www.dongsung.hs.kr/xe2/main/"
-        date: "2012 - 2015"
-        featuredLink:
-          enable: true
-          name: "School URL"
-          url: "https://www.dongsung.hs.kr/xe2/main/"
-
-  # Achievements
-  achievements:
-    enable: true
-    title: "Teaching and Seminar"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # Achievements
   achievements:
@@ -365,11 +344,24 @@ params:
     title: "Community Experiences"
     items:
       - title: AI Robotics Korea
-        content: I solved all problems with optimal solution.
+        content: "
+        Community Leader
+        <ul>
+        <li>Biggest robotics community in South Korea with more than 6k members</li>
+        <li>Regular off-line community conference with South Korea robotics startups and large companies.</li>
+        <li>Regular seminar events for robotics beginners supported from Autodesk and NVIDIA</li>
+        </ul>
+        "
         url: https://www.facebook.com/groups/379266009497613
         image: /ai_robo_logo.png
-      - title: Korea ROS Community
-        content: Developed a product using Artificial Intelligence.
+      - title: South Korea ROS Community
+        content: "
+        Community Expert
+        <ul>
+        <li>ROS user community in South Korea with more than 2k members</li>
+        <li>Administered questions from members, shared state-of-the-art technologies and news about the ROS industry</li>
+        </ul>
+        "
         url: https://www.facebook.com/groups/427060150825583
         image: /2_ROSKR_ppt.png
 
