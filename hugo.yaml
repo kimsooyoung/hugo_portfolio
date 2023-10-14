@@ -183,7 +183,11 @@ params:
           High precision AMR(Autonomous Mobile Robot) software system
           - High-Precision self-driving robots for semiconductor, battery production and logistics
           - MPC-based under 10mm stationary precision autonomous driving robot system
-
+          
+          [Before Pivot] Educational Robot and Courses
+          - Designed robot education curriculums and customized educational robots
+          - Developed Korea to Japan Live Race Robot Competition
+          - Built training curriculum for quadruped robots (Unitree A1, Go1)
       - job: "Robotics Software Developer, Co-Founder"
         company: "WATT"
         companyUrl: "https://wattrobotics.co/careers"
@@ -265,19 +269,10 @@ params:
         <br>- [ROS lectures for everybody](https://www.youtube.com/watch?v=j2kBX8G6-bY&list=PLieE0qnqO2kSYIxWAN6UvaMe_op2p2_Pw)
         <br>- [Quadruped robot making course](https://www.youtube.com/watch?v=XBYq_FJbdTk&list=PLDAyxeaWPd36ol0wfXV4KST0x8v7KWFwO)
         "
-        image: /images/projects/profile.png
+        image: /ytb_lec.png
         badges:
-          - "Youtube Lectrue"
-          - "Robotics"
           - "Python for Robotics"
           - "ROS / ROS 2"
-        links:
-          - icon: fa fa-note
-            url: https://roadbalance_edu.teachable.com/
-          - icon: fab fa-github
-            url: https://github.com/kimsooyoung/robotics_python
-          - icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=1gRGReIrUkQ&list=PLqVtSQw2sXKlI3idkAUBp2yX_p7wnJQF-
 
       - title: Face-to-Face Lectures 
         content: "
@@ -289,16 +284,13 @@ params:
         <br>
         <br>and lots of universities and companies
         "
-        image: /images/projects/converter.jpg
+        image: /facetoface.png
         badges:
           - "ROS 2"
-          - "Simulation"
+          - "Robot Simulation"
           - "Real Hardware"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Road-Balance/road100_simulation
-          - icon: fab fa-github
-            url: https://github.com/Road-Balance/ignition_tutorial
+          - "Autonomous Robots"
+          - "Robot Security"
 
       - title: Online Lectures
         content: "
@@ -307,13 +299,11 @@ params:
         <br>- [NVIDIA ISAAC Sim tutorial](https://edu.tta.or.kr/semina/TTAReqstView.do?eventId=EVENT_00000000002632)
         <br>- [Project-based ROS 2 course for employees](https://alpha-campus.kr/explore/f1f65a90-986f-4d84-b6af-6e0ac2a74171?type=3&type=4&number=0&size=12&keyword=ROS&types=3&types=4&orderBy=DATE)
         "
-        image: /images/projects/profile2.jpg
+        image: /online_lec.png
         badges:
           - "ROS 2"
-          - "Security"
-        links:
-          - icon: fab fa-file
-            url: https://rb2023ros.github.io/
+          - "Robot Simulation"
+
 
   # Education
   education:
