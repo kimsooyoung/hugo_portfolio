@@ -264,6 +264,8 @@ params:
     items:
       - title: Youtube Open Lectures
         content: "
+        I want robotics to be more popular! And making open courses is the best one I can do now.
+        <br>
         <br>- [Everybody’s Robotics](https://studio.youtube.com/video/1gRGReIrUkQ/edit)
         <br>- [ROS 2 lectures for everybody](https://www.youtube.com/watch?v=X9uYIumhU8E&list=PLieE0qnqO2kTNCznjLX_AaXe2hNJ-IpVQ)
         <br>- [ROS lectures for everybody](https://www.youtube.com/watch?v=j2kBX8G6-bY&list=PLieE0qnqO2kSYIxWAN6UvaMe_op2p2_Pw)
@@ -273,6 +275,7 @@ params:
         badges:
           - "Python for Robotics"
           - "ROS / ROS 2"
+          - "Robot Making Tutorial"
 
       - title: Face-to-Face Lectures 
         content: "
@@ -281,16 +284,12 @@ params:
         <br>- [Agency for Defense Development](https://www.add.re.kr/kps)
         <br>- [Electronics and Telecommunications Research Institute](https://www.etri.re.kr/eng/main/main.etri)
         <br>- [Daejeon Information and Culture Industry Promotion Agency](https://pms.dicia.or.kr/comm/main/main.do)
-        <br>
-        <br>and lots of universities and companies
         "
         image: /facetoface.png
         badges:
           - "ROS 2"
           - "Robot Simulation"
-          - "Real Hardware"
           - "Autonomous Robots"
-          - "Robot Security"
 
       - title: Online Lectures
         content: "
@@ -358,7 +357,7 @@ params:
   footer:
     recentPosts:
       path: "blogs"
-      count: 3
+      count: 6
       title: Projects
       enable: true
       disableFeaturedImage: false
