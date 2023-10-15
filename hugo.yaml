@@ -121,8 +121,8 @@ params:
     title: "Sooyoung Kim"
     subtitle: "I'm a Robotics Enthusiast."
     content: "
-    The best way to proving my knowledge might be making something, or explaining to others!!
-    That's why I love Robotics & Education"
+    The best way to proving my knowledge might be making something, or explaining to others.
+    That's why I love Robotics & Education!!!"
     image: /me2.png
     bottomImage:
       enable: false

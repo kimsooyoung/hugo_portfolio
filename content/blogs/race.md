@@ -5,7 +5,7 @@ draft: false
 author: "Sooyoung Kim"
 tags:
   - Robot Project
-image: /images/mathjax.png
+image: /hello_mars.gif
 description: ""
 toc: true
 mathjax: true

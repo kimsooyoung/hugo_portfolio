@@ -1,11 +1,11 @@
 ---
 title: 'High-precision Autonomous Mobile Robot for Manufacturing'
-date: 2023-10-10T16:35:48+09:00
+date: 2023-10-15T16:35:48+09:00
 draft: false
 author: "Sooyoung Kim"
 tags:
   - Robot Project
-image: /images/mathjax.png
+image: /custom.gif
 description: ""
 toc: true
 mathjax: true

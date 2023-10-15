@@ -1,6 +1,6 @@
 ---
-title: 'E-Scooter data analysis and Data-driven operation'
-date: 2023-10-15T16:35:48+09:00
+title: 'Quadruped Robot'
+date: 2023-10-09T16:35:48+09:00
 draft: false
 author: "Sooyoung Kim"
 tags:
